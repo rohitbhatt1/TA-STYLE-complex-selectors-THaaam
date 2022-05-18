@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- stylesheet-link -->
+    <title>Complex Selector</title>
+    <!-- font-link -->
+    <script src="https://kit.fontawesome.com/379acff5c7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex width-full padding">
+            <a href="#"><span class="logo">TrackL</span></a>
+            <label for="toggle" class="bars">                
+                <i class="fa fa-fw fa-bars"></i> 
+            </label>     
+            <input type="checkbox" id="toggle" />
+            <nav class="nav">
+                <ul class="flex link nav-menu column">
+                    <li> <a href="#feature">Features</a> </li>
+                    <li> <a href="#pricing">Pricing</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#help">Help</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Hero-Section -->
+        <section class="hero-section res-h center">
+            <div class="containern min">
+                <h2 class="heading">
+                    Track The Learning <br>Process Schdule
+                </h2>
+                <a href="" class="center">
+                    <button class="btn btn-secondary">Get 30 Days Trial</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- img-section -->
+        <section id="help" class="img-section">
+            <div class="container hero-div min">
+                <img class="hero-img" src="./assets/hero.png" alt="hero image">
+            </div>
+        </section>
+        <!-- document-section -->
+
+        <section class="document-section">
+            <div class="container padding ">
+                <nav class=" flex wrap column">
+                    <a href="#.pdf"><img src="./assets/pdf.png" alt="PDF"> pdf file</a>
+                    <a href="#.doc"><img src="./assets/word.png" alt="Word"> word file</a>
+                    <a href="#.jpg"><img src="./assets/image.png" alt="Image"> image file</a>
+                    <a href="#.mp4"><img src="./assets/video.png" alt="Video"> video file</a>
+                </nav>
+            </div>
+        </section>
+        <hr class="container line">
+        <!-- Triangle-Section -->
+        <section class="Triangle-section padding">
+            <div class="container flex column padding flex-start">
+                <article class="flex-48 column min article">
+                    <h3 class="triangle-section">
+                        Monitor Your Learning
+                        And Improve It
+                    </h3>
+                    <p class="tri-para padding">Far far away, behind the word mountains, far from the countries
+                        Vokalia and consonatia, there live the blind textsFar far away,
+                    </p>
+                    <a class="btn-triangle" href="#">Learn More</a>
+                </article>
+                <figure class="flex-48 min  column">
+                    <img class="width-full" src="./assets/learning-graph.png" alt="graph">
+                </figure>
+            </div>
+        </section>
+
+        <!-- Table-section -->
+        <section>
+            <div id="about" class="container min ">
+                <h3 class="padding heading">WEEKLY SCORE</h3>
+                <table>
+                    <thead>
+                        <th>Days</th>
+                        <th>Course</th>
+                        <th>Score(0-100)</th>
+                        <th>Hour Spent</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>Product Design</td>
+                            <td>40</td>
+                            <td>2 Hour 30 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>Product Design</td>
+                            <td>60</td>
+                            <td>3 Hour 30 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>Data Science</td>
+                            <td>20</td>
+                            <td>1 Hour 30Min </td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>UI Design</td>
+                            <td>60</td>
+                            <td>2 Hour 20 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>UX Design</td>
+                            <td>30</td>
+                            <td>2 Hour 30 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>Data Science</td>
+                            <td>50</td>
+                            <td>2 Hour 40 Min</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>HTML & CSS</td>
+                            <td>70</td>
+                            <td>3 Houe 30 Min</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- btn-section -->
+        <section>
+            <div class="container column">
+                <h3 class="btn-h">Join Us And Let's study<br> With Your Friends</h3>
+                <div class="center padding flex">
+                    <span class="join-text">Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="join-text">Yearly</span>
+                </div>
+            </div>
+        </section>
+        <!-- dollar-section -->
+        <section>
+            <div id="pricing" class="container padding  column flex">
+                <article class="flex-1 direction flex-48 icon">
+                    <h4 class="join-text center">Basic</h4>
+                    <p class="tri-para center">It is a long established fact that a reader <br>will be distracted by a
+                        readable</p>
+                    <h3 class="plain-text  center">$<span class="dollar">48</span>/Month</h3>
+                    <hr class="line">
+                    <nav>
+                        <ul class="icon-img">
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/tick.png" alt="tick"></a>
+                                <p class="icon-text">50 Courses a day</p>
+                            </li>
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/tick.png" alt="tick"></a>
+                                <p class="icon-text">4 Forum a Month</p>
+                            </li>
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/tick.png" alt="tick"></a>
+                                <p class="icon-text">16 Chapter a Day</p>
+                            </li>
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/cross.png" alt="tick"></a>
+                                <p class="icon-text">Private Lessons Once Week</p>
+                            </li>
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/cross.png" alt="tick"></a>
+                                <p class="icon-text">Get Weekly Reward</p>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href=""><button class="btn-icon">Get Started</button></a>
+                </article>
+
+                <!-- next-article -->
+                <article id="" class="flex-1 direction  flex-48 icon">
+                    <h4 class="join-text center">Most Popular</h4>
+                    <p class="tri-para center">It is a long established fact that a reader <br>will be distracted by a
+                        readable</p>
+                    <h3 class="plain-text  center">$<span class="dollar">50</span>/Month</h3>
+                    <hr class="line">
+                    <nav>
+                        <ul class="icon-img">
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/tick.png" alt="tick"></a>
+                                <p class="icon-text">50 Courses a day</p>
+                            </li>
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/tick.png" alt="tick"></a>
+                                <p class="icon-text">4 Forum a Month</p>
+                            </li>
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/tick.png" alt="tick"></a>
+                                <p class="icon-text">16 Chapter a Day</p>
+                            </li>
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/tick.png" alt="tick"></a>
+                                <p class="icon-text">Private Lessons Once Week</p>
+                            </li>
+                            <li class="flex-start baseline">
+                                <a href="@"><img class="tick" src="./assets/tick.png" alt="tick"></a>
+                                <p class="icon-text">Get Weekly Reward</p>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href=""><button class="btn-icon change">Get Started</button></a>
+                </article>
+            </div>
+        </section>
+        <!-- trial-section -->
+        <section id="feature" class="container trial min padding flex direction">
+            <h3 class="trial-h">Start Your 30 Days Trial Now!</h3>
+            <a href=""><button class="trial-btn">Get Started</button></a>
+        </section>
+      <!-- footer -->
+       <footer id="help" class="container  column padding" id="help"> 
+        <section class="flex-30 min">
+            <h3>TrackL</h3>
+            <p>Far far away, behind the wird mountains, far from the.</p>
+            <nav class="flex-1">
+                <a href="htttp/facebook.com" class="fa fa-facebook"></a>
+                <a href="twitter.com" class="fa fa-twitter"></a>
+                <a href="instagram.com" class="fa fa-instagram"></a>
+            </nav>
+        </section>
+        <section class="flex-20 min">
+            <ul>
+                <li>
+                    <h3>Features</h3>
+                </li>
+                <li>Calender</li>
+                <li>Forum</li>
+                <li>Messenger</li>
+                <li>Schedule</li>
+            </ul>
+        </section>
+        <section class="flex-20 min">
+            <ul>
+                <li>
+                    <h3>Support</h3>
+                </li>
+                <li>About Us</li>
+                <li>Carrer</li>
+                <li>FAQs</li>
+                <li>Security</li>
+            </ul>
+        </section>
+        <section class="flex-20 min">
+            <ul>
+                <li>
+                    <h3>Contact</h3>
+                </li>
+                <li><a href="mailto:hello@travkl.io">hello@trackl.io</a></li>
+                <li>(+00) 0000 000 000</li>
+            </ul>
+        </section>
+    </footer> -->
+
+    </main>
+
+</body>
+</html>
