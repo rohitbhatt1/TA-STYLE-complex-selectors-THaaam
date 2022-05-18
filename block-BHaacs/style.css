@@ -364,11 +364,12 @@ table {
 	bottom: 0;
 	background-color: #59bfc2;
 	-webkit-transition: .4s;
-	transition: .4s;
+	transition: .5s;
 }
   
 .slider:before {
 	position: absolute;
+
 	content: "";
 	height: 16px;
 	width: 16px;
@@ -386,6 +387,7 @@ input:checked + .slider {
 input:focus + .slider {
 	box-shadow: 0 0 1px #bbecec;
 }
+
   
 input:checked + .slider:before {
 	-webkit-transform: translateX(26px);
@@ -579,6 +581,8 @@ footer h3 {
         height: 100vh;
         background-color: var(--primary);
         padding-top: 2rem;
+		box-shadow: -10px -10px 10px blue;
+		border: 3px solid black;
     }
 
 	.heading{
